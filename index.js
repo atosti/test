@@ -1,6 +1,3 @@
-// import Chart from 'chart.js/auto';
-// import {Chart} from './node_modules/chart.js/dist/chart.js'; 
-
 // Globals
 // Quadrant colors
 const RED = '#ff7575';
@@ -204,7 +201,6 @@ var valuePercentages = {
     "inclusivityDec": 0,
     "heritageDec": 0
 };
-
 // Index of the currently shown question on the page
 let currQuestionIdx = 0;
 // List of all the possible answers to each question
@@ -612,7 +608,6 @@ function submitButton() {
                     hoverRadius: 10, 
                 }, 
             },
-            // events: ['mousemove', 'mouseout', 'touchstart', 'touchmove'], // Ignores mouseclicks
             plugins: {
                 legend: {
                     display: false
